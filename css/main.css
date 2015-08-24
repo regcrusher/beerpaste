@@ -1,0 +1,386 @@
+/* ==========================================================================
+HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+	color: #222;
+}
+
+body {
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.chromeframe {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+#container {
+	min-width: 600px;
+}
+
+a
+{
+	color: #855930;
+}
+
+body
+{
+	color: #855930;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url('../img/tile.jpg') fixed;
+	font-size: 14px;
+}
+
+
+
+#border
+{
+	width: 100%;
+	background: url('../img/border.png');
+	height: 46px;
+	margin-bottom:10px;
+	position: fixed;
+	z-index: 100;
+	min-width: 780px;
+
+}
+
+#left
+{
+
+	width:200px;
+	padding: 0 25px;
+	float:left;
+	text-align:right;
+	position: fixed;
+	padding-top: 60px;
+
+}
+
+
+
+#right
+{
+
+	margin-left: 250px;
+	position:relative;
+	z-index:0;
+	padding-top: 60px;
+}
+
+
+#footer {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	z-index: 10;
+	/*background: #c49a70;*/
+	padding: 10px 0;
+	/*color: white;*/
+}
+
+
+
+.posters
+{
+	min-width: 600px;
+	padding-bottom: 100px;
+
+}
+.poster
+{
+	width: 300px;
+	margin: 3px;
+	float: left;
+	padding:3px;
+}
+
+
+
+div.head {
+	margin-top: 10px;
+}
+
+#headleft {
+	text-align:left;
+	position:	absolute;
+	width:200px;
+	left:20px;
+}
+
+#headcenter {
+	width:117px;
+	position: absolute;
+	left:50%;
+	margin-left: -59px;
+	text-align:center;
+}
+
+#headright {
+
+	width: 200px;
+	position:	absolute;
+	text-align:right;
+	right:20px;
+
+}
+
+
+
+#mobile-header {
+	display: none;
+}
+
+
+
+
+
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi) {
+
+}
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+
+.ir {
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	*text-indent: -9999px;
+}
+
+.ir:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 100%;
+}
+
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/* ==========================================================================
+Print styles
+========================================================================== */
+
+@media print {
+	* {
+		background: transparent !important;
+		color: #000 !important; /* Black prints faster: h5bp.com/s */
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
+
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
+
+	/*
+	* Don't show links for images, or javascript/internal links
+	*/
+
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content: "";
+	}
+
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+
+	thead {
+		display: table-header-group; /* h5bp.com/t */
+	}
+
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
+
+	img {
+		max-width: 100% !important;
+	}
+
+	@page {
+		margin: 0.5cm;
+	}
+
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
+}
+
+
+
+
+
+/****************
+
+Beer Paste mobile
+
+*/
+
+
+
+@media only screen and (max-width: 767px) {
+	/* phones */
+	#container {
+		min-width: 0;
+	}
+	#border {
+		display: none;
+		min-width: 0;;
+	}
+
+	#left {
+		display: none;
+	}
+	#right {
+		margin-left: 0;
+		padding-top: 20px
+	}
+
+	.posters {
+		min-width: 100%;
+		padding-bottom: 50px;
+	}
+
+	.poster {
+		width: 100%;
+		float: none;
+		position: static !important;
+		text-align: center;
+		padding: 0;
+		margin:10px 0;
+	}
+
+	.poster img {
+		max-width: 100%;
+	}
+
+
+	#mobile-header{display: block;
+		text-align: center;
+	}
+
+}

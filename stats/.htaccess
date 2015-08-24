@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName " Statistics"
+AuthName "beer-paste.com Statistics"
+AuthUserFile /var/chroot/home/content/01/10168701/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html
